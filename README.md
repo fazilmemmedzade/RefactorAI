@@ -2,6 +2,8 @@
 
 **RefactorAI** is a lightweight AI chatbot built with **React 18**, focused on programming, code analysis, debugging, refactoring, and developer assistance.
 
+<a href="https://fazilmemmedzade.github.io/RefactorAI/">Visit site</a>
+
 ## ✨ Features
 
 * 🤖 AI programming assistant
