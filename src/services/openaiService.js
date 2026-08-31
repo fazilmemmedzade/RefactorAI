@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://openrouter.ai/api/v1/chat/completions';
+const API_URL = process.env.REACT_APP_API_URL || 'https://api.groq.com/openai/v1/chat/completions';
 
 export const sendMessageToAI = async (messages, apiKey) => {
   if (!apiKey) {
