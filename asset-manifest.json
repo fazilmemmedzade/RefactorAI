@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RefactorAI/static/css/main.93b54bbb.css",
+    "main.js": "/RefactorAI/static/js/main.6723b81c.js",
+    "index.html": "/RefactorAI/index.html",
+    "main.93b54bbb.css.map": "/RefactorAI/static/css/main.93b54bbb.css.map",
+    "main.6723b81c.js.map": "/RefactorAI/static/js/main.6723b81c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93b54bbb.css",
+    "static/js/main.6723b81c.js"
+  ]
+}
