@@ -1,0 +1,117 @@
+.message-list {
+  flex: 1;
+  overflow-y: auto; /* Scroll aktiv */
+  padding: 24px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar - GÖRÜNƏN */
+.message-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.message-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
+
+.message-list::-webkit-scrollbar-thumb {
+  background: #cc2233;
+  border-radius: 10px;
+}
+
+.message-list::-webkit-scrollbar-thumb:hover {
+  background: #ff3344;
+}
+
+/* Firefox üçün */
+.message-list {
+  scrollbar-width: thin;
+  scrollbar-color: #cc2233 rgba(255, 255, 255, 0.02);
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #888;
+  flex: 1;
+}
+
+.empty-icon {
+  font-size: 64px;
+  color: #cc2233;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 0 30px rgba(204, 34, 51, 0.3));
+}
+
+.empty-state h3 {
+  font-size: 26px;
+  color: #eee;
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 28px;
+}
+
+.quick-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quick-actions button {
+  background: rgba(204, 34, 51, 0.12);
+  border: 1px solid rgba(204, 34, 51, 0.25);
+  color: #ddd;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.quick-actions button:hover {
+  background: rgba(204, 34, 51, 0.25);
+  border-color: #cc2233;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.typing-indicator {
+  display: flex;
+  gap: 6px;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  align-self: flex-start;
+  margin: 4px 0;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background: #cc2233;
+  border-radius: 50%;
+  animation: typing 1.4s infinite;
+}
+
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.3; }
+  30% { transform: translateY(-10px); opacity: 1; }
+}
