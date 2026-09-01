@@ -28,6 +28,7 @@
 * **React Icons**
 * **CSS3**
 * **OpenAI-compatible Chat Completions API**
+* **Tailwind CSS**
 
 ## 📋 Requirements
 
