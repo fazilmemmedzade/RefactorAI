@@ -92,7 +92,7 @@ RefactorAI/
 **Fazil Məmmədzadə**
 
 * [GitHub](https://github.com/fazilmemmedzade)
-* [Portfolio](https://fazilmemmedzade.github.io/Portfolio/)
+* [Portfolio](https://fazilmemmedzade.github.io/portfolio/)
 
 ---
 
