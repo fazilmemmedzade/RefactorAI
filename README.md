@@ -52,15 +52,7 @@ cd RefactorAI
 npm install
 ```
 
-### 3. Configure API
-
-Create `.env`:
-
-```env
-REACT_APP_API_URL=https://api.openai.com/v1/chat/completions
-```
-
-### 4. Run
+### 3. Run
 
 ```bash
 npm start
