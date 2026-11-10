@@ -30,9 +30,9 @@ function ApiKeyModal({ onSave }) {
         <div className="api-modal-body">
           <div className="api-info">
             <FaKey className="key-icon" />
-            <h3>OpenAI API Key daxil edin</h3>
+            <h3>Groq API Key daxil edin</h3>
             <p className="api-desc">
-              AI chatbot-u işlətmək üçün OpenAI API key tələb olunur.
+              RefactorAI-ni işlətmək üçün öz Groq API key-inizi daxil edin.
             </p>
             <a
               href="https://groq.com/"

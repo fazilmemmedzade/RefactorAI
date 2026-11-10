@@ -3,7 +3,6 @@ import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { FaUser, FaRobot } from "react-icons/fa";
-import rehypeRaw from "rehype-raw";
 import "./MessageItem.css";
 import remarkGfm from "remark-gfm";
 
@@ -19,7 +18,6 @@ function MessageItem({ message }) {
         ) : (
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
             components={{
               code({ node, inline, className, children, ...props }) {
                 const match = /language-(\w+)/.exec(className || "");
