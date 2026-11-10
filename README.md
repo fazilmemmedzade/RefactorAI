@@ -1,20 +1,5 @@
 # RefactorAI
 
-## Model orchestration backend
-
-Chat requests now pass through a Node backend for validation, secret redaction,
-code signals, knowledge retrieval and bounded context preparation before inference.
-The frontend no longer calls the provider directly. Run `npm run server` separately
-from `npm start`; Node 22.12+ is required. GitHub Pages requires a separately hosted
-HTTPS backend and `REACT_APP_BACKEND_URL` configured at frontend build time.
-
-See [pipeline, deployment and reviewed training-data workflow](docs/model-pipeline.md).
-Run `npm run test:backend` for backend checks. This adds inference context and training
-data preparation; it does not train model weights. The older API integration and
-environment sections below describe the original frontend-only version; use the
-linked backend guide for current configuration.
-
-
 **RefactorAI** is a lightweight AI-powered developer assistant built with **React 18**. It is designed to help developers with programming questions, code analysis, debugging, refactoring, optimization, and general software development tasks.
 
 <a href="https://fazilmemmedzade.github.io/RefactorAI/">Visit site</a>
