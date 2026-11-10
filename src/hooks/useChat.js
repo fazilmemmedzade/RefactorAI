@@ -31,8 +31,7 @@ function useChat(apiKey) {
 
       setMessages(prev => [...prev, assistantMessage]);
     } catch (error) {
-      // Konsolda tam detalını görmək üçün:
-      console.error('API Xətası Detallı:', error.response?.data || error);
+      // Do not log request bodies or Authorization headers.
       
       const status = error.response?.status;
       const errorMsg = error.response?.data?.error?.message || error.message || '';
