@@ -17,7 +17,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "server": "node server/index.mjs",
+    "test:backend": "node --test server/test/*.test.mjs",
+    "training:export": "node server/training.mjs"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
