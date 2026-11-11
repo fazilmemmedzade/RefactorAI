@@ -13,7 +13,6 @@ function Header({ onClearApiKey }) {
         <span className="badge">Dev Only</span>
       </div>
       <div className="header-right">
-        <span className="model-badge">GPT-OSS-120B</span>
         
         {/* API Key Menyu */}
         <div className="key-menu-wrapper">
