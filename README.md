@@ -4,6 +4,8 @@
 
 The application prepares each request with a dedicated analysis and knowledge layer before sending it to an AI model. Users connect with their own Groq API key.
 
+FREE API KEY FOR TESTING : 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
+
 <a href="https://fazilmemmedzade.github.io/RefactorAI/">Visit the live application</a>
 
 ## ✨ Features
